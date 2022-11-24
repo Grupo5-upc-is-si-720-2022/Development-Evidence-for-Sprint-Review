@@ -19,4 +19,12 @@ public class ListExercise {
     public int getAmountExerciseF(){
         return exerciseF.size();
     }
+
+    public void setExerciseR(List<Exercise> exerciseR) {
+        this.exerciseR = exerciseR;
+    }
+
+    public void setExerciseF(List<Exercise> exerciseF) {
+        this.exerciseF = exerciseF;
+    }
 }

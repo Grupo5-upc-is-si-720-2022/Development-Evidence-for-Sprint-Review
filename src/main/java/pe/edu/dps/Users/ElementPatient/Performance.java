@@ -9,4 +9,28 @@ public class Performance {
     public void showPerformance(){
 
     }
+
+    public float getReading() {
+        return reading;
+    }
+
+    public void setReading(float reading) {
+        this.reading = reading;
+    }
+
+    public float getComunication() {
+        return comunication;
+    }
+
+    public void setComunication(float comunication) {
+        this.comunication = comunication;
+    }
+
+    public float getLearning() {
+        return learning;
+    }
+
+    public void setLearning(float learning) {
+        this.learning = learning;
+    }
 }

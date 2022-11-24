@@ -11,4 +11,12 @@ public class AmountPayment {
     public void setTotal(float total) {
         this.total = total;
     }
+
+    public float getAmountXSessions() {
+        return amountXSessions;
+    }
+
+    public void setAmountXSessions(float amountXSessions) {
+        this.amountXSessions = amountXSessions;
+    }
 }

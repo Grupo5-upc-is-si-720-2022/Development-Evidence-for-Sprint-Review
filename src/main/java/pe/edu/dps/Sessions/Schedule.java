@@ -12,4 +12,20 @@ public class Schedule {
     public void changeHour(Hour hour){
 
     }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public Hour getHour() {
+        return hour;
+    }
+
+    public void setHour(Hour hour) {
+        this.hour = hour;
+    }
 }

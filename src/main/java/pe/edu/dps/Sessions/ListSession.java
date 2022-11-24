@@ -21,4 +21,28 @@ public class ListSession {
     public Session getSessionR(int id){
         return sessionsR.get(id);
     }
+
+    public List<Session> getSessionsF() {
+        return sessionsF;
+    }
+
+    public void setSessionsF(List<Session> sessionsF) {
+        this.sessionsF = sessionsF;
+    }
+
+    public List<Session> getSessionsR() {
+        return sessionsR;
+    }
+
+    public void setSessionsR(List<Session> sessionsR) {
+        this.sessionsR = sessionsR;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
 }

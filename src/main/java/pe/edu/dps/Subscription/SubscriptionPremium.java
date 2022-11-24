@@ -3,7 +3,12 @@ import pe.edu.dps.Sessions.Date;
 public class SubscriptionPremium {
     private Date startDate;
     private Date finalDate;
+    public void CancelSubcription(){
 
+    }
+    public void RenewSubscription(){
+
+    }
     public Date getStartDate() {
         return startDate;
     }

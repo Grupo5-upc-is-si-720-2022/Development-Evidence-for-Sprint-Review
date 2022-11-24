@@ -16,4 +16,28 @@ public class Patient extends Person{
     public void updatePerformace(){
 
     }
+
+    public ListSession getSessions() {
+        return sessions;
+    }
+
+    public void setSessions(ListSession sessions) {
+        this.sessions = sessions;
+    }
+
+    public Performance getPerformance() {
+        return performance;
+    }
+
+    public void setPerformance(Performance performance) {
+        this.performance = performance;
+    }
+
+    public ListExercise getActivities() {
+        return activities;
+    }
+
+    public void setActivities(ListExercise activities) {
+        this.activities = activities;
+    }
 }
